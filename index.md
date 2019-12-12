@@ -6,34 +6,15 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 
 {% include gh_variables.html %}
 
-For guidelines on how to develop curriculum content, please visit [The Carpentries Curriculum Development Handbook](https://carpentries.github.io/curriculum-development/).
+R is a free software environment developed to perform statistical analysis and visualize data that has expanded over more than 2 decades of development to become a major platform for software development and distribution. One of the more prominent packages developed for R, `tidyverse`, is actually a collection of 8 different packages that help to simplify the process of data analysis in R. 
 
-This lesson shows how to use [The Carpentries]({{ site.carpentries_site}})
-lesson template. The materials below assume familiarity with tools such as GitHub, Markdown, and Jekyll. For more guidance, please visit the [Technological introductions](https://carpentries.github.io/curriculum-development/technological-introductions.html) section of The Carpentries Curriculum Development Handbook.
-   
-For guidelines on how to help improve our lessons and this template,
-please see [the contribution guidelines][contributing];
-for guidelines on how to set up your machine to preview changes locally,
-please see [the setup instructions]({{ page.root }}{% link setup.md %}).
+The goal of this course is to teach novice programmers how to use `tidyverse` in R to import, process, transform, manupulate, and ultimately visualize data. This course is designed to be taught in 2 half-day sessions as a part of a 2-day Software Carpentry workshop, about 6 hours in total. While this is not nearly enough time to explore all of the myriad functions included in `tidyverse`, it will walk learners through the basics of data analysis and visualization, and establish a foundation for future education and practice.
+
+For a more detailed description of the capabilities of R `tidyverse`, check out the book [R for Data Science](https://r4ds.had.co.nz/) written and made freely available online by its creators.
 
 > ## Prerequisites
 >
 > Use the `.prereq` style to specify prerequisites.
 {: .prereq}
-
-> ## Ten Things You Need To Know
->
-> 0.  Don't panic.
-> 1.  Create a new lesson by using GitHub Import, *not* by forking.
-> 2.  Run `bin/lesson_initialize.py` *once* in a new lesson repository to set up standard files.
-> 3.  Run `make lesson-check` to check that the lesson is formatted correctly.
-> 4.  Put lesson episodes in `_episodes` (or `_episodes_rmd` if you are writing in RMarkdown).
-> 5.  Run `make serve` to preview the lesson website locally.
-> 6.  Do *not* commit the generated HTML files in the `_site` directory.
-> 7.  Style blocks and code samples by putting `{: .stylename}` on a newline *after* the block or code.
-> 8.  Put solutions inside challenges using nested blockquotes.
-> 9.  File issues and template fixes in the [styles repository][styles],
->     and enhancements to this documentation in this one.
-{: .checklist}
 
 {% include links.md %}
