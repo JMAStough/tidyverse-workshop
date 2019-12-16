@@ -1,23 +1,78 @@
 ---
 source: Rmd
 title: "Introduction to RStudio"
-teaching: 10
+teaching: 30
 exercises: 2
 questions:
-- "How to use RStudio?"
+- "How do we use RStudio?"
 objectives:
 - "Understand the functions of each of the 4 main panels in RStudio."
 - "Practice opening, writing, and running code in an Rscript."
 - "Explain the philosophy and design of tidyverse."
 - "Demonstrate loading data into R and making a plot."
 keypoints:
-- "Edit the .Rmd files not the .md files"
-- "Run `make serve` to knit documents and preview lesson website locally"
+- "RStudio tracks data, plots, variables, we create or load into R"
+- "Rscripts are short segements of code saved to text documents that can be run over and over"
+- "Enter and run R code from scripts to build a foundation of code for future analysis"
 ---
 
 ## What is R?
 
+R is an open-source software environment developed originally for statistical computing and graphics
+originally released in 1995. Since then, it has expanded significantly, becoming a prominent 
+comuputer language, a major platform for open-source software development and distribution, and 
+garnering a strong global community. 
 
+R's strong background in statistical computation, readibility, and open-source development has set 
+it apart from many other computing languages as one of the most important environments for data 
+analysis, and it is used widely for this purpose in academia, finance, and the healthcare industry.
+
+R can be used by opening a terminal and entering
+
+```
+> ## Bash
+> R
+```
+```
+> ## Output
+> R version 3.6.1 (2019-07-05) -- "Action of the Toes"
+> Copyright (C) 2019 The R Foundation for Statistical Computing
+> Platform: x86_64-pc-linux-gnu (64-bit)
+>
+> R is free software and comes with ABSOLUTELY NO WARRANTY.
+> You are welcome to redistribute it under certain conditions.
+> Type 'license()' or 'licence()' for distribution details.
+>
+>  Natural language support but running in an English locale
+>
+> R is a collaborative project with many contributors.
+> Type 'contributors()' for more information and
+> 'citation()' on how to cite R or R packages in publications.
+>
+> Type 'demo()' for some demos, 'help()' for on-line help, or
+> 'help.start()' for an HTML browser interface to help.
+> Type 'q()' to quit R.
+>
+> >
+```
+
+## What is RStudio?
+
+W
+
+
+
+## What
+
+Learning how to use R involves learning to use its programming language. R does simplify writing 
+scripts in a number of ways compared to other programming languages, but it is still challenging to 
+learn for those without a background in computer programming.While this language can be entered and 
+run line-by-line in a terminal, like using BASH, more complicated tasks often require code to be 
+run in chunks, called *scripts*. 
+
+
+
+One way
 
 If the lesson uses additional packages, the script that converts the Rmd files
 into markdown, will detect them and install them for you, when you run `make
